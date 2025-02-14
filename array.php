@@ -4,6 +4,10 @@
 <?php
     $notas = [8.6 , 7.9 , 4.3 , 3.7 , 9.1]; //Para criar variável digite $ e dê o nome para a variável
     $numero_de_notas = count($notas);
+    $disciplina[
+        "nome" => "TPA"
+        "professor" => "Renato"
+    ]
 
     echo 'Com FOR'.'<br/>'.'<br/>';
     for ($i=0; $i< $numero_de_notas; $i++) //Usando o FOR
